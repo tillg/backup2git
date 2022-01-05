@@ -20,7 +20,7 @@ Actually backup2git is not a full backup tool, it's merely the part that takes a
 
 The following drawing shows how I use it to store the backups of my Wordpress blog into a GitLab repo:
 
-![Overview](overview.png)
+![Overview](./overview.png)
 
 Here is what happens:
 
