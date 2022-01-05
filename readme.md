@@ -74,7 +74,7 @@ All we need in terms of API to use git repos to store backups are the standard g
 The major differnece is the amount of space you can store. 
 
 | Service | Max Repo Size (GB) | Max File size (MB) | Other notes |
-|---|---|---|
+| --- | --- | --- | --- |
 | Github | 100 - not tested | 100 | Pushes are limited to 2GB. About repo size: `less than 5 GB is strongly recommended` |
 | GitLab | 10 | Unlimited (up to repo size) |
 | Bitbucket | 1 | Unlimited (up to repo size) |
