@@ -48,15 +48,17 @@ git init -q
 
 # In the line below set your values for the service, the userm, the repo
 git remote add origin git@github.com:User/UserRepo.git
-
+git add --all
+git commit -m "First commit"
 git push -u origin master
 ```
+
+Probably you also have to setup the ssh keys between your server and the git server (before being able to push).
 
 ### Configure backup2git
 
 `backup2git` is configured by environment variables:
 
-* BAK2GIT_GIT_REPO
 * BAK2GIT_BAK_DIR
 
 ### Setting up the cron job
